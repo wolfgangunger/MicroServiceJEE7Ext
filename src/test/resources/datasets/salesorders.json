@@ -1,0 +1,15 @@
+{
+    "T_SALESORDER":
+            [
+                {
+                    "ID": "1",
+                    "ORDER_NUMBER": "001",
+                    "DESCRIPTION": "Test Order 1"
+                },
+                {
+                    "ID": "2",
+                    "ORDER_NUMBER": "002",
+                    "DESCRIPTION": "Test Order 2"
+                }
+            ]
+}

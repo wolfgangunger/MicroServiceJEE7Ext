@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>JEE7 (CA4) example. Micro Service and REST </h1>
+
+        <br>
+        Use Firefox and JSON Plugin to display the results<br>
+        Use Postman to insert data (POST)<br>
+        <br><br>
+        No data? Execute the insert script
+        <br><br>
+        Swagger Definition :<br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/swagger.json" > "http://localhost:8080/microServiceJEE7/api/v1/swagger.json"</a>
+        <br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/swagger.yaml" > "http://localhost:8080/microServiceJEE7/api/v1/swagger.yaml"</a>
+        <br>
+
+        <br><br>
+        --------------REST Methods--------------- <br>        <br>
+        initialize a new Sales Order Object with default values        <br>
+        GET        <br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/sample/initSalesOrder/" > "http://localhost:8080/microServiceJEE7/api/v1/sample/initSalesOrder/"</a>
+        <br>
+        <br>
+        retrieve sales order with id         <br>
+        GET        <br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrders/1" >"http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrders/1"</a>
+        <br>        <br>
+        retrieve a list of all sales orders        <br>
+        GET        <br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrders/" >"http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrders/"</a>
+        <br>        <br>
+        retrieve a list of all sales order TOIs (smaller tranfer objects)        <br>
+        GET          <br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrderTOIs/" >"http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrderTOIs/"</a>   
+        <br>        <br>
+
+        persist a new sales order (consumes SalesOrder object)        <br>
+        POST        <br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrders/" >"http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrders/"</a>
+        <br>        <br>
+        update sales order 1 (consumes SalesOrder object)        <br>
+        PUT        <br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrders/1" >"http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrders/1"</a>
+        <br>        <br>
+        deletes sales order 1        <br>
+        DELETE        <br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrders/1" >"http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrders/1"</a>
+        <br>        <br>
+
+        retrieve a list of all sales order details        <br>
+        GET        <br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrderDetails/" >"http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrderDetails/"</a>    
+        <br>        <br>
+        retrieve a list of all sales order details for sales order 1        <br>
+        GET        <br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrderDetailsByOrder/1" >"http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrderDetailsByOrder/1"</a>            
+        <br>
+        <br>        <br>
+        retrieve one sales order detailby id      <br>
+        GET        <br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrderDetails/4" >"http://localhost:8080/microServiceJEE7/api/v1/sample/salesOrderDetails/4"</a>            
+
+        <br>        <br>
+        Monitoring:<br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/monitoring/methods/exceptional" >"http://localhost:8080/microServiceJEE7/api/v1/monitoring/methods/exceptional"</a>       <br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/monitoring/methods/slowest" >"http://localhost:8080/microServiceJEE7/api/v1/monitoring/methods/slowest"</a>       <br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/monitoring/methods/recent" >"http://localhost:8080/microServiceJEE7/api/v1/monitoring/methods/recent"</a>       <br>
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/monitoring/entities/salesOrder" >"http://localhost:8080/microServiceJEE7/api/v1/monitoring/entities/salesOrder"</a>       <br>        
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/monitoring/ping" >"http://localhost:8080/microServiceJEE7/api/v1/monitoring/ping"</a>       <br>   
+        <a href="http://localhost:8080/microServiceJEE7/api/v1/monitoring/systems" >"http://localhost:8080/microServiceJEE7/api/v1/monitoring/systems"</a>       <br>   
+
+    </body>
+</html>
