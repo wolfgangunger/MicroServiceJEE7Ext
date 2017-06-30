@@ -4,10 +4,12 @@ Created by Wolfgang Unger, 5.2017
 Simple CA4 example with 2 entities and REST endpoints
 Swagger definition (by Swagger Servlet and Annotations) is also available
 Arqullian Examples also included
+Liquibase
 
 Pre-Conditions:
 Local Postgres DB (Standard Installation) with Schema 'ms'
 User postgres, Password postgres
+Connection Pool and JDBC Resource on App Server (jdbc/ms)
 
 After Application Deployment (will create tables ) execute the insert script
 

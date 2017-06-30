@@ -17,7 +17,7 @@ public class ApplicationConfig extends Application {
         BeanConfig beanConfig = new BeanConfig();
         beanConfig.setVersion("1.0");
         beanConfig.setSchemes(new String[]{"http"});
-        beanConfig.setTitle("JEE7 Microservices");
+        beanConfig.setTitle("JEE7 Microservices Extended");
         beanConfig.setBasePath("/api/v1");
         beanConfig.setResourcePackage("com.ntt.ms");
         beanConfig.setScan(true);

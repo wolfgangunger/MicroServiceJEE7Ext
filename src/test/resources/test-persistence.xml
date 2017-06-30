@@ -4,7 +4,7 @@
              xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
     <persistence-unit name="operational" transaction-type="JTA">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-        <jta-data-source>jdbc/payaraEmbedded</jta-data-source>	
+        <jta-data-source>jdbc/ms</jta-data-source>	
         <validation-mode>NONE</validation-mode>
         <properties>
             <!--

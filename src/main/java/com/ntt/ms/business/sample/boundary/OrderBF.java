@@ -48,7 +48,8 @@ import javax.ws.rs.core.SecurityContext;
  * 
  * @author UNGERW
  */
-@Interceptors({ PrincipalSecurityInterceptor.class,PerformanceInterceptor.class })
+//@Interceptors({ PrincipalSecurityInterceptor.class,PerformanceInterceptor.class })
+@Interceptors({ PrincipalSecurityInterceptor.class})
 //@DeclareRoles({"Admin", "Manager"})
 @Path("/sample")
 @Api(value = "/sample", description = "Example Business Facade")

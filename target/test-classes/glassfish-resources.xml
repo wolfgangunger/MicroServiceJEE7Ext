@@ -4,7 +4,7 @@
         "http://glassfish.org/dtds/glassfish-resources_1_5.dtd">
 <resources>
     <jdbc-resource pool-name="ArquillianEmbeddedH2Pool"
-                   jndi-name="jdbc/payaraEmbedded"/>
+                   jndi-name="jdbc/ms"/>
     <jdbc-connection-pool name="ArquillianEmbeddedH2Pool"
                           res-type="javax.sql.DataSource"
               datasource-classname="org.h2.jdbcx.JdbcDataSource">
