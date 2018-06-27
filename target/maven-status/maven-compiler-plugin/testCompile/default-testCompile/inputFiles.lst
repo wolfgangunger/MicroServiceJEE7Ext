@@ -1,3 +1,3 @@
-C:\workspaces\netbeans\microServiceJEE7\MicroServiceJEE7Ext\src\test\java\com\ntt\ms\business\sample\boundary\OrderBFTest.java
-C:\workspaces\netbeans\microServiceJEE7\MicroServiceJEE7Ext\src\test\java\com\ntt\ms\business\base\ArquillianTestBase.java
-C:\workspaces\netbeans\microServiceJEE7\MicroServiceJEE7Ext\src\test\java\com\ntt\ms\business\base\SecurityContextImpl.java
+C:\workspaces\microservice\MicroServiceJEE7Ext\src\test\java\com\ungerw\ms\business\base\ArquillianTestBase.java
+C:\workspaces\microservice\MicroServiceJEE7Ext\src\test\java\com\ungerw\ms\business\sample\boundary\OrderBFTest.java
+C:\workspaces\microservice\MicroServiceJEE7Ext\src\test\java\com\ungerw\ms\business\base\SecurityContextImpl.java

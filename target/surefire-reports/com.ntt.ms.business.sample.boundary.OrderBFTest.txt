@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.ntt.ms.business.sample.boundary.OrderBFTest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.779 sec
